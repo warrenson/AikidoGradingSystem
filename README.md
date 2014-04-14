@@ -3,7 +3,7 @@ AikidoGradingSystem
 
 Database-driven dynamic grading forms for Aikido
 
-##Platform:
+## Platform
 Requirement: Multiplatform
 - Framework: Google Chrome Application
 
