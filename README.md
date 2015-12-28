@@ -46,3 +46,7 @@ http://api.jquery.com/load/
 Form *submit* action writes result data flat file and renders PDF of result(sent to browser as download).
 
 
+## Application
+http://www.w3.org/TR/2011/WD-html5-20110525/offline.html#offline
+
+
