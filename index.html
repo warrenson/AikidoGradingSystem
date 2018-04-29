@@ -3,23 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jQuery UI Tabs - Simple manipulation</title>
+  <title>Grading System v0.1</title>
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="css/main.css">
-  <style>
-  #dialog label, #dialog input { display:block; }
-  #dialog label { margin-top: 0.5em; }
-  #dialog input, #dialog textarea { width: 95%; }
-  #tabs { margin-top: 1em; }
-  #tabs li .ui-icon-close { float: left; margin: 0.4em 0.2em 0 0; cursor: pointer; }
-  #add_tab { cursor: pointer; }
-  </style>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="js/main.js"></script>
 </head>
 <body>
  
+<!-- Create Test Form Dialog -->
 <div id="dialog" title="Tab data">
     <form>
         <fieldset class="ui-helper-reset">
@@ -35,8 +28,11 @@
     </form>
 </div>
  
+<h1>Grading System v0.1</h1>
+
 <button id="add_tab">Create Grading Test From +</button>
  
+<!-- Contains tabs -->
 <div id="tabs">
   <ul>
     <li><a href="#tabs-1">Welcome</a> <span class="ui-icon ui-icon-close" role="presentation">Remove Tab</span></li>
