@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Tabs - Simple manipulation</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+  #dialog label, #dialog input { display:block; }
+  #dialog label { margin-top: 0.5em; }
+  #dialog input, #dialog textarea { width: 95%; }
+  #tabs { margin-top: 1em; }
+  #tabs li .ui-icon-close { float: left; margin: 0.4em 0.2em 0 0; cursor: pointer; }
+  #add_tab { cursor: pointer; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+ 
+<div id="dialog" title="Tab data">
+    <form>
+        <fieldset class="ui-helper-reset">
+            <select name="grading_form" id="grading_form" required>
+                <option value="" disabled selected>Select Test</option>
+                <option value="6">Rokyu</option>
+                <option value="5">Gokyu</option>
+            </select>
+
+            <input required type="text" name="student_name" id="student_name" placeholder="Student Name" class="ui-widget-content ui-corner-all">
+
+        </fieldset>
+    </form>
+</div>
+ 
+<button id="add_tab">Create Grading Test From +</button>
+ 
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Welcome</a> <span class="ui-icon ui-icon-close" role="presentation">Remove Tab</span></li>
+  </ul>
+  <div id="tabs-1">
+    <p>Welcome to the Grading System.</p>
+    <p>Please create a grading form.</p>
+  </div>
+</div>
+ 
+ 
+</body>
+</html>
